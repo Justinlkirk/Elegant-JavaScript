@@ -3,6 +3,7 @@ function countBs(word){
     for (count = 0; count < word.length; count++) {
         if (word[count] === "B") totalLetter++;
     }
+  return totalLetter
 }//Count how man Bs are in a word.
 console.log(countBs("BBC"));
 // → 2

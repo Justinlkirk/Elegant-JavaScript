@@ -1,1 +1,0 @@
-let blue = 2

@@ -29,8 +29,8 @@ function sum (numbers) {
 }//Adds all the values in range.
 
 console.log(range(1, 9));
-// → [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// → [1, 2, 3, 4, 5, 6, 7, 8, 9]
 console.log(range(7, 2, -1));
-// → [5, 4, 3, 2]
+// → [7, 6, 5, 4, 3, 2]
 console.log(sum(range(1, 5, 2)));
 // → 9

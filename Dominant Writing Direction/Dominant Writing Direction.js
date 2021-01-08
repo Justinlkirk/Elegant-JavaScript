@@ -16,7 +16,7 @@ function dominantDirection(text) {
     else if (rightToLeft > leftToRight && rightToLeft > topToBottom) return "Right to left is the dominant direction in this text."
     else if (topToBottom > leftToRight && topToBottom > rightToLeft) return "Top to bottom is the dominant direction in this text."
     else return "At least two of the directions are tied."
-};
+};// Determines the direction each letter is written in and returns the dominant direction from the text provided
 
 function characterScript(code) {
     for (let script of SCRIPTS) {
@@ -27,7 +27,7 @@ function characterScript(code) {
       };
     };
     return null;
-};
+};// Function from Elegant Java script that finds what script the text code originates from
 
   console.log(dominantDirection("Hello!"));
   // → ltr
